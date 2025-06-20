@@ -25,7 +25,7 @@ def get_config():
     config.tokenizer_kwargs=[{}]
     
     config.model_paths=['meta-llama/Llama-2-7b-chat-hf']
-    config.model_kwargs=[{"low_cpu_mem_usage": True, "use_cache": False, "use_flash_attention_2": False}]
+    config.model_kwargs=[{"low_cpu_mem_usage": True, "use_cache": False}]
     config.conversation_templates=['llama-2']
     config.devices=['cuda:0']
 
